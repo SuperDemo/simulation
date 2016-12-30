@@ -1,0 +1,26 @@
+<root>
+    <state currentState="start">
+        <nextskip AVAevent="S">p1</nextskip>
+    </state>
+    <state currentState="p1">
+        <nextskip AVAevent="A1">p3</nextskip>
+        <nextskip AVAevent="B1">p2</nextskip>
+    </state>
+    <state currentState="p2">
+        <nextskip AVAevent="B3">end</nextskip>
+        <nextskip AVAevent="B2">p1</nextskip>
+    </state>
+     <state currentState="p3">
+        <nextskip AVAevent="A2">p4</nextskip>
+    </state>
+    <state currentState="p4">
+        <nextskip AVAevent="A3">p5</nextskip>
+    </state>
+    <state currentState="p5">
+        <nextskip AVAevent="A4">end</nextskip>
+        <nextskip AVAevent="A5">p3</nextskip>
+    </state>
+    <state currentState="end">
+        <nextskip AVAevent="over"></nextskip>>
+    </state>
+</root>
